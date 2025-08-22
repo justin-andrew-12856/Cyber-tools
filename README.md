@@ -80,7 +80,7 @@ Save the file and exit the editor (Ctrl+X, Y, Enter).
 
 Cron will automatically apply these new rules. The setup is complete!
 
-✅ Verifying It Works
+Verifying It Works
 You can check if the script is running by viewing its log file.
 
 Run this command in your terminal to see the last few entries in the log:
@@ -89,7 +89,7 @@ tail -f /var/log/auto_update.log
 
 After a reboot or after the 12-hour mark passes, you should see new entries appear in this file, confirming that the script ran successfully. Press Ctrl+C to stop watching the log.
 
-🗑️ How to Uninstall
+How to Uninstall
 If you wish to stop the automatic updates:
 
 Remove the Cron Jobs:
@@ -105,5 +105,6 @@ Delete the Script (Optional):
 You can remove the script file with: sudo rm /usr/local/bin/auto_update.sh
 
 Delete the Log File (Optional):
+
 
 You can remove the log file with: sudo rm /var/log/auto_update.log
