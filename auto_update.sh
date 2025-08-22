@@ -8,7 +8,7 @@
 # It uses 'apt' to refresh the package lists and apply any available upgrades.
 # It is designed to be run non-interactively by a scheduler like cron.
 #
-# Author: Gemini
+# Author: Justin
 # Date: 2024-08-22
 # =============================================================================
 
@@ -69,3 +69,4 @@ echo "Auto-update script finished at $TIMESTAMP_END" >> $LOGFILE
 echo "-------------------------------------------------" >> $LOGFILE
 
 exit 0
+
